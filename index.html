@@ -12,14 +12,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="service" href="sw.js">
-    <style> 
-    .add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-}
-    </style>
+    <!-- <link rel="service" href="sw.js"> -->
+     <script src="sw.js"></script> 
 </head>
 
 <body>
@@ -60,7 +54,7 @@
 
     <div class="mt-2 mb-4 bg-light rounded-3">
         <div class="container py-5">
-            <h1 class="display-5 fw-bold">Welcome to PWA Labs</h1>
+            <h1 class="display-5 fw-bold">Welcome to PWA</h1>
             <p class="col-md-8 fs-4">Progressive Web Apps (PWAs) are web apps that use service workers, manifests, and
                 other web-platform features in combination with progressive enhancement to give users an experience on
                 par with native apps.</p>
@@ -73,7 +67,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">What makes a PWA Lab</h5>
+                        <h5 class="card-title">What makes a PWA</h5>
                         <p class="card-text">Progressive Web Apps (PWA) are built and enhanced with modern APIs to
                             deliver enhanced capabilities, reliability, and installability while reaching anyone,
                             anywhere, on any device with a single codebase. To help you create the best possible
@@ -99,9 +93,10 @@
             </div>
         </div>
 
-<button class="add-button">Add to home screen</button> 
+        <button class="add-button">Add to home screen</button>
 
-        </body>
+
+</body>
 
 <script>
 let deferredPrompt;
